@@ -1,0 +1,108 @@
+
+.integration {
+
+ padding: 5%;
+
+}
+
+.filmcontainer {
+    height: 600px;
+    width: auto;
+    
+    background-image: url(../ressource/film/font.png);
+}
+
+.integrationFilm {
+    float: left;
+    border: solid #901b13 5px;
+   
+}
+
+.synopsis {
+    height: 405px;
+    width: 850px;
+    border: solid #901b13 5px;
+    float: right;
+    margin-left: 5%;
+    font-size: 150%;
+    color: #d4d4d4;
+    text-shadow: 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000, -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000;
+}
+
+#titreSyno {
+    font-size: 150%;
+    font-weight: 900;
+    text-decoration: underline;
+    padding-left: 15%;
+    padding-top: 2%;
+    
+    
+    
+}
+
+#textSyno {
+    font-weight: 900;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-right: 1%;
+    line-height: 40px;
+    
+}
+
+#wiki {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.external {
+margin: 50px;
+    
+}
+
+#allocine {
+    padding-left: 200px;
+    max-height: 280px;
+    max-width: 280px;
+
+}
+
+
+
+
+
+
+
+.listeContainer {
+    font-size: 100%;
+    border: solid #901b13 5px;
+    max-height: 50%;
+    max-width: 50%;
+    background-color: aliceblue;
+
+    
+
+}
+
+.listeFilm {
+   background-color: #242754;
+ 
+}
+
+.test {
+    padding-top: 5%;
+}
+
+.listeEspacement {
+        padding: 2.5%;
+    list-style-type: none;
+}
+
+.navbarBtnActu {
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+    background-size: 100% 100%;
+}

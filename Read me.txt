@@ -1,0 +1,2 @@
+A ouvir dans Firefox de préfèrence.
+Avec une connexion internet car j'utilise une bibliothèque ( fontawesome.com ).

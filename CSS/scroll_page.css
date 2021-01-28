@@ -1,0 +1,86 @@
+
+
+.containerScroll {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: auto;
+    scroll-snap-type: both mandatory;
+}
+
+.containerScroll .sectionScroll {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+}
+
+.containerScroll .sectionScroll:nth-child(1) {
+    background: url(../ressource/scroll_page/alSchool.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerScroll .sectionScroll:nth-child(2) {
+    background: url(../ressource/scroll_page/alThese.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerScroll .sectionScroll:nth-child(3) {
+    background: url(../ressource/scroll_page/alGC&CS.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerScroll .sectionScroll:nth-child(4) {
+    background: url(../ressource/scroll_page/alBomb.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerScroll .sectionScroll:nth-child(5) {
+    background: url(../ressource/scroll_page/alMort.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerScroll .sectionScroll .contentScroll {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 700px;
+}
+
+.containerScroll .sectionScroll .contentScroll h2 {
+    background: #fff;
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2em;
+}
+
+.containerScroll .sectionScroll .contentScroll p {
+    background: #fff;
+    color: #111;
+    font-weight: 300;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.bio {
+    overflow: hidden;
+}
+
+
+.navbarBtnActu {
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+    background-size: 100% 100%;
+}
